@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://unpkg.com/leaflet/dist/leaflet.css');
+@import "tailwindcss";
+
+@theme {
+	/* Breakpoints */
+	--breakpoint-xs: 480px;
+	--breakpoint-sm: 640px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1140px;
+	--breakpoint-xxl: 1320px;
+
+	/* Fonts */
+	--font-Plus-Jakarta-Sans: "Plus Jakarta Sans", sans-serif;
+
+	/* Colors */
+	--primary-color: #51c206;
+	--secondary-color: #384054;
+	--primary-text: #fcfeff;
+	--secondary-text: #b9bbbd;
+	--black-color: #252422;
+	--tertiary-color: #c8c5c3;
+	--grey-color: #909090;
+
+	/* Background-Colors */
+	--bg-color: #292c33;
+}
+
+.scrollbar-none {
+	scrollbar-width: none;
+}
